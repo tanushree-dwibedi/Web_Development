@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+         width: 100px;
+         height: 100px;
+         margin: 25px;
+         padding: 25px;
+         display: inline-block;
+         background-color: rgba(255,0,0,0.75);
+        }
+        #box1{
+            /*no space reserved*/
+            display: none;
+        }
+        button{
+            display: block;
+        }
+        #box2{
+          /*space reserved*/
+            visibility: hidden;
+        }
+
+    </style>
+</head>
+<body>
+  <!--  <div>This is a div</div>
+    <button>click me</button> -->
+    <h1>display playground</h1>
+  <div id="box1" style="background-color: blue;">box1</div>
+  <div style="background-color: green;" id="box2">box2</div>
+  <div>box3</div>
+</body>
+</html>

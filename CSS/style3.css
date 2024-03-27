@@ -1,0 +1,17 @@
+#box1{
+height: 100px;
+width: 100px;
+background-color: green;
+font-size: 10px;
+}
+#box2{
+height: 50px;
+/*width: 30%;*/
+margin-left:10%;
+background-color: yellow;
+font-size: 2em;
+width: 5em;
+width: 5rem;
+height: 100vh;
+width: 100vw;
+}

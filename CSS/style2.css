@@ -1,0 +1,44 @@
+div{
+    height: 200px;
+    width: 200px;
+    background-color: pink;
+  /*  border-width: 6px;
+    border-style: double ;
+    border-color: rgb(182, 192, 43);
+     text-align: right;
+     circle    
+  border-radius: 50%;
+   padding-left: 25px;
+ padding-right: 25px;
+ padding-bottom: 25px;
+  margin-top: 50px;
+ margin-bottom: 50px;
+  */
+
+ border: 2px solid red;
+ padding: 25px;
+ padding: 2px 3px 7px 4px;
+margin: 25px;
+margin: 2px 3px 7px 4px;
+
+}
+/*
+border: width , style , colour;
+*/
+
+h1{/*
+    width: 200px;
+    height: 50px;
+    background-color: aqua;
+    border-width: 4px;
+    border-style: solid;
+   border-color: black;
+   
+  // border: 4px double black;
+   text-align: center;
+  */
+}
+
+p{
+    border: 2px solid green;
+}

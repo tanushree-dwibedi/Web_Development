@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    div{
+        height: 100px;
+        width: 100px;
+        background-color: aqua;
+    border: 2px solid black;
+   /* transition-property: all ;
+    transition-duration: 2s;
+    transition-timing-function: steps(3);
+    transition-timing-function: ease-in;
+    transition-delay:1s;*/
+
+    /* transition shorthand
+    property name| duration | timing-function |delay
+    transition: all 2s ease-in-out 1s;
+    */
+
+
+position: absolute;
+top:100px;
+left:100px;
+
+animation: colorAnime 4s ease-in 1s infinite normal;
+/*
+animation-name: colorAnime;
+animation-duration: 0.5s;
+animation-timing-function: ease-in;
+animation-delay: 0s;
+animation-iteration-count: 5;
+*/
+/*
+transform: rotate(45deg);
+rotate: z 180deg;
+*/
+
+}
+@keyframes colorAnime {
+     /*   from { background-color:aquamarine;}
+        to {background-color:red;}*/
+      0%{  eft:0px;
+        background-color: yellow;
+      }
+      50%{
+        background-color: blue;
+      }
+      100%{left:200px;
+        background-color: brown;
+    color: beige;
+}
+      }
+    
+    div:hover{
+     
+        /*
+           background-color: red;
+        color:white ;
+        font-size: 20px;
+
+        transform: rotate(360deg);
+        transform: scale(1,2);
+        transform: translatex(-250px);
+        transform: skew(900deg);
+        */
+
+    }
+/*
+    div:active{
+        background-color: pink;
+    }
+    */
+</style>
+</head>
+<body>
+    <div>this is a box</div>
+</body>
+</html>

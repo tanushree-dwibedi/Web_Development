@@ -1,0 +1,63 @@
+h1{
+    text-align: center;
+    text-decoration: black double underline;
+    color:rgb(255, 0,0);
+     background-color: rgb(0,255,0);
+}
+body{
+    background-color: rgb(255, 255, 24);
+}
+p{
+    text-align: left;
+    color: aqua;
+    background-color: blueviolet;
+}
+button{
+    color: #ff0000;
+    background-color: aqua;
+}
+#heading1{
+    color:blue;
+}
+#heading2{
+    background-color: blueviolet;
+}
+.myclass{
+    background-color: black;
+}
+h2,h3,h4{
+    color: blueviolet;
+}
+h2{
+    font-weight: 100;
+}
+h3{
+  font-weight: 900;
+}
+h4{
+    font-weight: lighter;
+}
+a{
+    text-decoration: none;
+}
+#one{
+    font-family: Arial;
+
+    font-size: 25px;
+     
+    line-height: 50px;
+    text-transform: capitalize;
+    
+}
+#two{
+    /*normal font size is 16px
+    and 96px=1inch
+    font-size: 16px;
+    line-height:normal;
+    text-transform: none;*/
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#three{
+    font-size: 10px;
+    line-height: 4px;
+}
