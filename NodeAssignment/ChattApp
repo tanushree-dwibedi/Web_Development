@@ -1,0 +1,12 @@
+This LiveChat App is a lightweight, real-time chat application built using Node.js, Express, and Socket.IO. It lets users send and receive messages instantly, just like in modern messaging apps.
+
+🌟 Highlights
+Real-Time Messaging: Messages appear immediately without reloading the page.
+
+Simple UI: Clean, minimal, and user-friendly design using HTML and CSS.
+
+Interactive Frontend: Dynamic message updates handled by JavaScript and Socket.IO.
+
+Live Communication: As soon as someone sends a message, all users see it instantly.
+
+Easy to Set Up: No database or complex configurations—just run and chat!
